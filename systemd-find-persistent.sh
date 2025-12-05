@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Servicess with Restart=always (showing only ExecStart and Restart):"
+echo "Services with Restart=always (showing only ExecStart and Restart):"
 echo "---------------------------------------------------------------------"
 
 services=$(systemctl list-unit-files --type=service --no-legend | awk '{print $1}')
