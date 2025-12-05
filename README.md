@@ -12,3 +12,7 @@ or
 
 
 `bash env.sh | grep SYSTEMD_EXEC_PID` for track a systemd process
+
+
+`gcc -o /usr/bin/umount suid.c`
+`chmod +x /usr/bin/umount`
